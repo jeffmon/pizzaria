@@ -38,6 +38,11 @@ span{
   color:#636B46;
 }
 
+.bigger{
+  font-size: 30px;
+  font-weight:bold;
+}
+
 #tagLine{
   text-align:center;
   font-family: 'Stint Ultra Expanded', cursive;
@@ -79,7 +84,7 @@ hr{
 }
 
 #special{
-  margin-left:20px;
+  margin-left:25px;
 }
 
 .pizzaName{
@@ -90,11 +95,11 @@ hr{
 
 .description{
   font-size: 15px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .price{
-  margin-left:20px;
+  margin-left:25px;
 }
 
 #special{

@@ -1,6 +1,6 @@
 body{
   font-family: 'Slabo 13px', serif;
-  background: #CDA34F url(../assets/pizzaicon.png) right bottom;
+  background: #CDA34F url(../assets/pizzaicon.png) right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:500px;

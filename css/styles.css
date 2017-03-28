@@ -10,6 +10,9 @@ body{
 
 #randomSpecial{
   font-family: 'Slabo 13px', serif;
+  margin-left: 25px;
+  color:#636B46;
+  font-size: 35px;
 }
 
 /*
@@ -89,6 +92,10 @@ hr{
 
 #special{
   margin-left:25px;
+}
+
+.pizza{
+  
 }
 
 .pizzaName{

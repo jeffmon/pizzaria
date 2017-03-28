@@ -40,22 +40,22 @@ createSpecial.innerHTML = diffSpecials[Math.floor(Math.random() * diffSpecials.l
 targetSpecial[0].appendChild(createSpecial);
 
 
-var targetPizza = document.getElementsByClassName("pizza")
+var targetPizza = document.getElementsByClassName("sectionTitle");
 console.log(targetPizza);
 function createMenu(name, desc, price){
   for(var i = 0; i<name.length; i++){
     var createPizzaName = document.createElement("div");
     createPizzaName.className = "pizzaName";
     createPizzaName.innerHTML = name[i];
-    targetPizza[0].appendChild(createPizzaName);
+    targetPizza[1].appendChild(createPizzaName);
     var createPizzaDesc = document.createElement("p");
     createPizzaDesc.className = "description";
     createPizzaDesc.innerHTML = desc[i];
-    targetPizza[0].appendChild(createPizzaDesc);
+    targetPizza[1].appendChild(createPizzaDesc);
     var createPizzaPrice = document.createElement("p");
     createPizzaPrice.className = "price";
     createPizzaPrice.innerHTML = price[i];
-    targetPizza[0].appendChild(createPizzaPrice);
+    targetPizza[1].appendChild(createPizzaPrice);
 
 /*    createPizzaName.className = "pizzaName";
     createPizzaName.innerHTML = name[i];

@@ -51,11 +51,11 @@ function createMenu(name, desc, price){
     var createPizzaDesc = document.createElement("p");
     createPizzaDesc.className = "description";
     createPizzaDesc.innerHTML = desc[i];
-    targetPizza[1].appendChild(createPizzaDesc);
+    createPizzaName.appendChild(createPizzaDesc);
     var createPizzaPrice = document.createElement("p");
     createPizzaPrice.className = "price";
     createPizzaPrice.innerHTML = price[i];
-    targetPizza[1].appendChild(createPizzaPrice);
+    createPizzaName.appendChild(createPizzaPrice);
 
 /*    createPizzaName.className = "pizzaName";
     createPizzaName.innerHTML = name[i];
@@ -92,3 +92,28 @@ function createMenu(name){
 createMenu(forLoop);
 
 */
+
+var targetPizzaName = document.getElementsByClassName("pizzaName");
+
+for (var i = 0; targetPizzaName.length; i++){
+  targetPizzaName[i].addEventListener("click", showDetails);
+  targetPizzaName[i].addEventListener("click", showPrice);
+}
+
+function showDetails(){
+  var getDetails = this.querySelectorAll(".description")[0];
+  if(getDetails.style.display === "none"){
+    getDetails.style.display = "block";
+  }else{
+    getDetails.style.display = "none";
+  }
+}
+
+function showPrice(){
+  var getPrice = this.querySelectorAll(".price")[0];
+  if(getPrice.style.display === "none"){
+    getPrice.style.display = "block";
+  }else{
+    getPrice.style.display = "none";
+  }
+}

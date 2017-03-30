@@ -106,13 +106,23 @@ hr{
   color:#636B46;
 }
 
+.pizzaName:hover{
+  color:#373F27;
+}
+
 .description{
   font-size: 15px;
   margin-left: 25px;
+  color:#E9E7DA;
+  display: none;
+  font-family: 'Slabo 13px', serif;
 }
 
 .price{
   margin-left:25px;
+  color:#E9E7DA;
+  display: none;
+  font-family: 'Slabo 13px', serif;
 }
 
 #deal{
